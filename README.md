@@ -2,6 +2,11 @@
 
 ## Wireframes
 
+<img src="./assets/Home-wireframe.png" width="500px" >
+<img src="./assets/CandyList-wireframe.png" width="500px" >
+<img src="./assets/Form-wireframe.png" width="500px" >
+<img src="./assets/Cart-wireframe.png" width="500px" >
+
 ---
 
 ## User Stories
