@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="C-m8uq7v74cRY4m9dpXM" name="Page-1">
-        <mxGraphModel dx="2751" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1767" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -13,7 +13,7 @@
                 <mxCell id="30" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="29" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="App.js&amp;nbsp;&lt;br&gt;/home" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="2" value="App.js&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="340" y="70" width="200" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="52" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="51" edge="1">
@@ -39,13 +39,13 @@
                 <mxCell id="20" style="edgeStyle=none;html=1;" parent="1" source="7" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="Halloween.js&lt;br&gt;/candy/halloween" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="7" value="Halloween.js&lt;br&gt;/halloween" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="300" y="390" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Easter.js&lt;br&gt;/candy/easter" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="8" value="Easter.js&lt;br&gt;/easter" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="390" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="Search.js" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -72,7 +72,7 @@
                 <mxCell id="19" value="HalloweenList.js&lt;br&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="300" y="590" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="CandyItem.js&lt;br&gt;/candy/item/:id" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="28" value="CandyItem.js&lt;br&gt;/candy/:id" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="300" y="790" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="29" target="35" edge="1">
@@ -84,14 +84,14 @@
                 <mxCell id="50" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="29" target="49" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="Candy.js&lt;br&gt;(GET)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="29" value="Home.js&lt;br&gt;/home&lt;br&gt;(GET)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="380" y="220" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="38" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="35" target="37" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="AllCandy.js&lt;br&gt;/candy" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="390" width="120" height="60" as="geometry"/>
+                <mxCell id="35" value="Candy.js&lt;br&gt;/candy" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="441" y="390" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="37" target="28" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -99,10 +99,10 @@
                 <mxCell id="37" value="CandyList.js" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="440" y="590" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="Cart.js&lt;br&gt;(POST) (PATCH)&lt;br&gt;(DELETE)&lt;br&gt;/candy/cart" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="49" value="Cart.js&lt;br&gt;(POST) (PATCH)&lt;br&gt;(DELETE)&lt;br&gt;/cart" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="860" y="390" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" value="About.js&lt;br&gt;/candy/about" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="51" value="About.js&lt;br&gt;/about" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="20" y="390" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" value="SocialMedia.js" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
