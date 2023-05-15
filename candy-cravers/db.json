@@ -7,7 +7,7 @@
             "price": 1.24,
             "nuts": true,
             "chocolate": true,
-            "occasion": ""
+            "occasion": " "
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "price": 6.59,
             "nuts": false,
             "chocolate": false,
-            "occasion": ""
+            "occasion": " "
         }
     ],
     "cart": [
@@ -27,7 +27,7 @@
             "price": 1.24,
             "nuts": true,
             "chocolate": true,
-            "occasion": "",
+            "occasion": " ",
             "amount": 1
         }
     ]
