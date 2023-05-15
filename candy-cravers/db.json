@@ -23,6 +23,17 @@
   ],
   "cart": [
     {
+      "id": 2,
+      "name": "Twizzlers Strawberry Big Bag",
+      "image": "https://www.cvs.com/bizcontent/merchandising/productimages/large/34000502813.jpg",
+      "description": " ",
+      "price": 6.59,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " ",
+      "amount": 6
+    },
+    {
       "id": 1,
       "name": "Reese's Peanut Butter Cup",
       "image": "https://i5.walmartimages.com/asr/892fd592-8943-49fe-88da-6e6ec25ff2ab.3de47ea5094f7014c1eaf20ff731c091.jpeg",
@@ -31,7 +42,7 @@
       "nuts": true,
       "chocolate": true,
       "occasion": " ",
-      "amount": 4
+      "amount": 8
     }
   ]
 }
