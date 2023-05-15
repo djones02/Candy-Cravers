@@ -24,7 +24,7 @@
 ---
 
 ## React Tree
-<img src="./assets/final-react-tree.png" width="800px" >
+<img src="./assets/final-final-react-tree.png" width="800px" >
 
 ---
 
@@ -44,11 +44,12 @@
 
 ## Client Side Routes
 
-| /home                	| Home.js          	|
-|----------------------	|------------------	|
-| /candy               	| Candy.js         	|
-| /halloween           	| Halloween.js     	|
-| /easter              	| Easter.js        	|
+| API Route           	| Component        	|
+|---------------------	|------------------	|
+| /home                 | Home.js           |
+| /candy/all           	| Candy.js         	|
+| /candy/easter       	| Candy.js         	|
+| /candy/halloween     	| Candy.js         	|
 | /about               	| About.js         	|
 | /cart                	| Cart.js          	|
 | /candy/:id           	| CandyItem.js     	|
