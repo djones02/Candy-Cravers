@@ -12,22 +12,40 @@ function Candy() {
       .then(res => res.json())
       .then((data) => setCandies(data))
   }, [])
-
-  // function candyMap() {
-  //   if(occasion === "all"){
-  //     candies.map((candy) => )
-  //   }
-  // }
   
-
-  
-
-
+  function candyChoice() {
+    if (occasion === "all") {
+      return candies.map(candy => {
+        return <CandyItem 
+          candy={candy}
+          key={candy.id}
+        />
+      })
+    } else if (occasion === "easter") {
+      return candies.filter(candy => {
+        return candy.occasion === occasion
+      }).map(candy => {
+        return <CandyItem 
+          candy={candy}
+          key={candy.id}
+        />
+      })
+    } else if (occasion === "halloween") {
+      return candies.filter(candy => {
+        return candy.occasion === occasion
+      }).map(candy => {
+        return <CandyItem 
+          candy={candy}
+          key={candy.id}
+        />
+      })
+    }
+  }
 
   return (
-    <div>
-      {/* {candyMap} */}
-    </div>
+    <ul>
+      {candyChoice()}
+    </ul>
   )
 }
 
