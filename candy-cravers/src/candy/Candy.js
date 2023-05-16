@@ -47,7 +47,7 @@ function Candy() {
   return (
     <div>
       <Search search={search} onSearch={updateSearch} />
-      <ul>{candyChoice()}</ul>
+      <ul className="candy-container">{candyChoice()}</ul>
     </div>
   );
 }

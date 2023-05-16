@@ -25,24 +25,27 @@ function CandyItem({ candy }) {
   return (
     <li className="cards__item">
       <div className="card">
-        <h3 className="card__text">{isOn ? candy.name : candy.description}</h3>
+        <h3 className="card__text">{candy.name}</h3>
         <img
           onMouseEnter={handleClick}
           onMouseLeave={handleClick}
-          src={candy.image}
+          src={isOn ? candy.image : candy.back_image}
           alt={candy.name}
           className="card_image"
         />
         <div className="card__content"></div>
         <div className="card__detail">
-          <button onClick={addToCart} id="random-planeteer">
-            {isAdded ? "Added to cart!" : "Add to cart"}
-          </button>
+          <div className="card__price">
           <input
             type="number"
             value={input}
             onChange={(e) => setInput(e.target.value)}
           ></input>
+          <h4>${candy.price}</h4>
+          </div>
+          <button onClick={addToCart} className="add-to-cart">
+            {isAdded ? "Added to cart!" : "Add to cart"}
+          </button>
         </div>
       </div>
     </li>
