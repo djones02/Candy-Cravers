@@ -43,7 +43,7 @@ function Cart() {
     fetch(`http://localhost:4000/cart/${candy.id}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ...candy, amount: newamount }),
+      body: JSON.stringify({ ...candy, amount: candy.amount }),
     })
       .then((res) => res.json())
       .then((data) => {
