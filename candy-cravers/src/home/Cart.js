@@ -60,7 +60,7 @@ function Cart() {
           <div className="card" key={candy.id}>
             <img src={candy.image} alt={candy.name} />
             <h2>{candy.name}</h2>
-            <h3>{candy.amount}</h3>
+            <h3>Amount:</h3>
             <input type='number' value={candy.amount} onChange={(e) => onAmountChange(e, candy)} />
             <p>Price: ${candy.price*candy.amount}</p>
             <button onClick={() => handleDelete(candy)}>Delete</button>
