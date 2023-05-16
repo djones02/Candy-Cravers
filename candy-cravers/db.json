@@ -102,26 +102,40 @@
   ],
   "cart": [
     {
-      "id": 2,
-      "name": "Twizzlers Strawberry Big Bag",
-      "image": "https://www.cvs.com/bizcontent/merchandising/productimages/large/34000502813.jpg",
+      "id": 3,
+      "name": "Hershey's Milk Chocolate Candy Bar",
+      "image": "https://i5.walmartimages.com/asr/59a36c97-dcb8-45bc-9b08-93aaa486ecbd_1.39b6546ce56d1c27d95cc65ea7fe942d.jpeg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/34561348-5a31-4515-9904-0e0ff9f02285_1.ad70a7bc6dabb789cdfc0bf3ed5cf297.jpeg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
       "description": " ",
-      "price": 6.59,
+      "price": 1.24,
+      "nuts": false,
+      "chocolate": true,
+      "occasion": " ",
+      "amount": 4
+    },
+    {
+      "id": 4,
+      "name": "Hershey's Cookies 'n' Creme Candy",
+      "image": "https://i5.walmartimages.com/asr/9b23d3b3-294f-4c32-9b51-3de7c9c2a834.ecb7737a7d908ade14a657a0c8306689.jpeg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/4fb2253f-ca7c-4745-a1bb-e2d600e26462.3b1c474dc8a01b5aa39f9d57ba38b45f.jpeg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+      "description": " ",
+      "price": 1.24,
+      "nuts": false,
+      "chocolate": true,
+      "occasion": " ",
+      "amount": 12
+    },
+    {
+      "id": 8,
+      "name": "Haribo Goldbears Original Gummy Bears Bag",
+      "image": "https://i5.walmartimages.com/asr/17c9d7b0-e06f-4086-8154-b04253e7c999.1aa6d98be6d3a7126464a537197542f5.jpeg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/2231b01f-549c-4aea-8470-73509babc028.3745f884a5084c98b763ca9594ed9468.jpeg?odnHeight=160&odnWidth=160&odnBg=FFFFFF",
+      "description": " ",
+      "price": 1.24,
       "nuts": false,
       "chocolate": false,
       "occasion": " ",
-      "amount": 6
-    },
-    {
-      "id": 1,
-      "name": "Reese's Peanut Butter Cup",
-      "image": "https://i5.walmartimages.com/asr/892fd592-8943-49fe-88da-6e6ec25ff2ab.3de47ea5094f7014c1eaf20ff731c091.jpeg",
-      "description": "good peanut",
-      "price": 1.24,
-      "nuts": true,
-      "chocolate": true,
-      "occasion": " ",
-      "amount": 8
+      "amount": ""
     }
   ]
 }
