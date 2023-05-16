@@ -26,25 +26,39 @@ function Cart() {
       console.log(candy)
   }
 
-  // function onAmountChange(e){
-  //   setNewamount(e)
-  //   handlePatch()
-  // }
+  function onAmountChange(e, candy) {
+    const newAmountValue = parseInt(e.target.value);
+    setNewamount(newAmountValue);
+    handlePatch({ ...candy, amount: newAmountValue });
+  }
+  
+  
 
 
-  // const handlePatch = () => {
-  //   fetch(`http://localhost:4000/cart/${carted.id}`, {
-  //     method: 'PATCH',
-  //     headers: {'Content-Type': 'application/json'},
-  //     body: JSON.stringify({...carted,amount: newamount})
-  //   })
-  //   .then (res => res.json())
-  //   .then (data => setNewamount(data))
-
-  // }
-
-  // const cartedmap = carted.map(candy => handlePatch(candy))
-
+  const handlePatch = (candy) => {
+    const updatedCarted = carted.map((candyItem) => {
+      if (candyItem.id === candy.id) {
+        return { ...candyItem, amount: newamount };
+      }
+      return candyItem;
+    });
+  
+    fetch(`http://localhost:4000/cart/${candy.id}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ...candy, amount: newamount }),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        setCarted(updatedCarted);
+      })
+      .catch((error) => console.error(error));
+  };
+  
+  
+  
+  
+  
 
 
 
@@ -57,8 +71,7 @@ function Cart() {
             <img src={candy.image} alt={candy.name} />
             <h2>{candy.name}</h2>
             <h3>{candy.amount}</h3>
-              {/* <input type='number' value={newamount} onChange={e => onAmountChange(e.target.value)}>
-                </input> */}
+            <input type='number' value={candy.amount} onChange={(e) => onAmountChange(e, candy)} />
             <p>Price: ${candy.price*candy.amount}</p>
             <button onClick={() => handleDelete(candy)}>Delete</button>
           </div>
