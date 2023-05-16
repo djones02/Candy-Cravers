@@ -24,7 +24,7 @@
 ---
 
 ## React Tree
-<img src="./assets/final-final-react-tree.png" width="800px" >
+<img src="./assets/final-react-tree.png" width="800px" >
 
 ---
 
