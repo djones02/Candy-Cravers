@@ -31,14 +31,11 @@ function Cart() {
     setNewamount(newAmountValue);
     handlePatch({ ...candy, amount: newAmountValue });
   }
-  
-  
-
 
   const handlePatch = (candy) => {
     const updatedCarted = carted.map((candyItem) => {
       if (candyItem.id === candy.id) {
-        return { ...candyItem, amount: newamount };
+        return { ...candyItem, amount: candy.amount };
       }
       return candyItem;
     });
@@ -54,13 +51,6 @@ function Cart() {
       })
       .catch((error) => console.error(error));
   };
-  
-  
-  
-  
-  
-
-
 
   return (
     <div>

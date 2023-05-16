@@ -387,6 +387,17 @@
     }
   ],
   "cart": [
-    
+    {
+      "id": 32,
+      "name": "SWEDISH FISH Soft & Chewy Candy Box",
+      "image": "https://i5.walmartimages.com/asr/da6e17f0-0600-4f83-806d-d6639007b3a5.ad944d5fc3753e32e1da4245571f541f.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/fae72b59-9607-4d93-b35e-d8f6c2dc4de6.297d99dadf5b7a99fb92b70991e850b9.jpeg",
+      "description": " ",
+      "price": 1.24,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "easter",
+      "amount": 5
+    }
   ]
 }
