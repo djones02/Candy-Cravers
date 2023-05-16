@@ -384,6 +384,171 @@
       "nuts": true,
       "chocolate": true,
       "occasion": " "
+    },
+    {
+      "id": 36,
+      "name": "Perfetti Van Melle Airheads Bites",
+      "image": "https://i5.walmartimages.com/asr/ad6fa860-e220-47ae-b5ef-2c9343b4d969_1.bfeaa91ebbd4a5009fc39b7d42fa43f0.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/8285dbcb-f85a-4c70-a006-dbb8770343c7_2.730f68a33f536af1bfb9f3b4f8f8afc5.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 7.99,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " "
+    },
+    {
+      "id": 37,
+      "name": "Skittles Sour Candy Bag",
+      "image": "https://i5.walmartimages.com/asr/28f375b7-dac0-40f2-b100-77012207f684.bc63671f438e0132dc26109277497b06.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/6c758a26-8995-4692-944c-c865d3c139f9.466d2c755cadd8a5acd82c1ed59f4e03.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 7.01,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " "
+    },
+    {
+      "id": 38,
+      "name": "Starburst Original Minis Fruit Chews Gummy Candy",
+      "image": "https://i5.walmartimages.com/asr/0d9fb08d-0b37-4bdd-90b5-e6cc0d1f1495.e240300f2d7d93edd1c540d6ba83bd29.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/4b879e2f-5f0c-4952-853d-47ff102325d0.42d8c7fc5530d0e578420222ae67231c.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 8.98,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " "
+    },
+    {
+      "id": 39,
+      "name": "SweeTARTS Original Candy",
+      "image": "https://i5.walmartimages.com/asr/d8c69033-0013-42ee-8f01-89abe2f02397.99cd2204e171c27d640b965a8c6b8466.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/c3eeaf57-8976-4f43-ad3c-4fe6eeed621d.24e84074b0a11371771b794df050a3d2.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 1.24,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " "
+    },
+    {
+      "id": 40,
+      "name": "Sour Punch Straws, Strawberry Chewy Fruity Candy",
+      "image": "https://i5.walmartimages.com/asr/f879cca8-b6d7-4ec0-917e-fd75d0a32cbe.d68b61d47a9a5c029ed746ad9c8cbb2a.png",
+      "back_image": "https://i5.walmartimages.com/asr/9c3fff30-95b6-4b42-9a52-9569b8f8f995.bd8dd3c4e81d87add726959f72577c43.jpeg",
+      "description": " ",
+      "price": 5.99,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " "
+    },
+    {
+      "id": 41,
+      "name": "JOLLY RANCHER Assorted Fruit Flavored Original Hard Candy",
+      "image": "https://i5.walmartimages.com/asr/e759aedf-034e-4a1b-a7b7-e94d99f7e650.be7bd47cb83d20144dfff6b419e51093.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/56fb1560-c479-4596-be45-49c4feeb87b2.48b03dffcef14247ee990923e2a447cd.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 6.39,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " "
+    },
+    {
+      "id": 42,
+      "name": "Trolli Sour Brite Crawlers Very Berry Gummi Candy",
+      "image": "https://i5.walmartimages.com/asr/b94d0ff2-2863-4ccb-9e3a-4e383a5b41d1.ace13c963abc6b68d453defe5adeb1e8.png",
+      "back_image": "https://i5.walmartimages.com/asr/bbc0369e-e8eb-4bf1-ae07-cd04ad58daa2.204f2dec0547851575b33c12f3a53fdc.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 1.98,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " "
+    },
+    {
+      "id": 43,
+      "name": "Nerds Big Chewy Candy",
+      "image": "https://i5.walmartimages.com/asr/15043809-686f-4bdc-99bb-ba5007326606.a9e90de9ab5fe3e24f54ee5b8062bc54.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/6511fa22-d528-49dc-b394-12641fba11e0.ff3c009d72e4270c979f537f3f4c6018.jpeg",
+      "description": " ",
+      "price": 7.45,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " "
+    },
+    {
+      "id": 44,
+      "name": "Skittles Original Gummy Candy",
+      "image": "https://i5.walmartimages.com/asr/ab884c16-adc5-4678-b076-e2bf1beaf542.2c9415dbea1309e577806a3a6db2b623.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/582a8494-c17f-4cd8-9088-9dd0360ca7ee.afebe9e2695beb85e0969ae2f3d00fd1.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 1.24,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " "
+    },
+    {
+      "id": 45,
+      "name": "Frankford Sponge Bob Square Pants Gummy Krabby Patty Plus Prize",
+      "image": "https://i5.walmartimages.com/asr/2f8d24d3-3180-49f9-9677-405906ac0a25.c4af7f26c5347ddaf0c5c1f9a7678113.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/088a5b8a-f1e1-43ae-95ba-a4de77fbca0b.371e465bda0445309a6e0c0ecc79dafe.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 2.28,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " "
+    },
+    {
+      "id": 46,
+      "name": "Fluffy Stuff Cotton Candy",
+      "image": "https://i5.walmartimages.com/asr/81c3167c-d6cc-4036-9e87-fb4cdf4199f6_4.7fe5bba29a87df708c7dc733ad082aad.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/0312d996-923a-440b-adca-40cdf0e42737_4.4b94bfb84cbadebe6f4f4b3e87cf051d.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 8.49,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " "
+    },
+    {
+      "id": 47,
+      "name": "Starburst Original Fruit Chews Gummy Candy",
+      "image": "https://i5.walmartimages.com/asr/ee3d2188-f282-4bd5-80e5-0d97e0bb3587.e9c2131610cccd8f6cbf5661fe190df4.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/9ecc6269-1431-4d81-975e-2a497792606a.ae172abb095cb7c786f192598ccb8c74.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 1.24,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " "
+    },
+    {
+      "id": 48,
+      "name": "Swedish Fish Fat Free Soft & Chewy Candy",
+      "image": "https://i5.walmartimages.com/asr/7e849171-b604-4fef-9036-d10a891a1d16.1059ce6d6e11e8e9deb1671fa92834e9.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/53e4db9a-cda8-4994-ac6b-a1261b652408.ab5e809f8c49933afbe6ebb9d9990534.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 6.83,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " "
+    },
+    {
+      "id": 49,
+      "name": "Sweetarts Original Candy",
+      "image": "https://i5.walmartimages.com/asr/74585bd8-edb0-465b-bbb7-7834a2ab993d.77bc0ec5436b6f971f8cd0dcf45867d9.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/af0d1ffe-a145-4d57-aca1-87fc14f320e7.1060889a46cf03d1eab2cd2c7cfddcae.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 1.24,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " "
+    },
+    {
+      "id": 50,
+      "name": "Milk Duds, Chocolate and Caramel Candy",
+      "image": "https://i5.walmartimages.com/asr/9fc6cb50-ec70-4914-96fc-df61e634fc1f.e8cbe588bfbc7f591cb3a857239ec71f.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/799f19f9-af84-4f0c-a4ba-893c336823f3.aea038f1d7b8acea504b9b3273142067.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 1.24,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": " "
     }
   ],
   "cart": [
@@ -397,7 +562,7 @@
       "nuts": false,
       "chocolate": false,
       "occasion": "easter",
-      "amount": 6
+      "amount": 4
     }
   ]
 }
