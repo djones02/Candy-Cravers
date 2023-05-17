@@ -9,6 +9,7 @@ function NewCandyForm() {
     nuts: false,
     chocolate: false,
     occasian: "",
+    description: "",
   };
   const [form, setForm] = useState(template);
 
@@ -16,14 +17,27 @@ function NewCandyForm() {
     setForm({ ...form, [e.target.name]: e.target.value });
   }
 
-  console.log(form);
+  function handleSubmit(e) {
+    e.preventDefault();
 
-  function handleSubmit() {}
+    fetch("http://localhost:4000/candies", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        ...form,
+        nuts: form.nuts === "true" ? true : false,
+        chocolate: form.chocolate === "true" ? true : false,
+      }),
+    })
+      .then((resp) => resp.json())
+      .then((data) => setForm(template));
+  }
+
   return (
     <div className="form-container">
       <h2>Got a Suggestion? Drop it in the From</h2>
       <p>And our candy team will work on ordering it for you!</p>
-      <form className="form">
+      <form onSubmit={(e) => handleSubmit(e)} className="form">
         <label htmlFor="name">Candy Name:</label>
         <input
           id="name"
@@ -54,18 +68,18 @@ function NewCandyForm() {
         <label htmlFor="nuts">Contains nuts?</label>
         <select name="nuts" onChange={(e) => handleChange(e)}>
           <option>Select</option>
-          <option value={true}>Yes</option>
-          <option value={false}>No</option>
+          <option value="true">Yes</option>
+          <option value="false">No</option>
         </select>
         <label htmlFor="chocolate">Contains Chocolate?</label>
         <select name="chocolate" onChange={(e) => handleChange(e)}>
           <option>Select</option>
           <option value="true">Yes</option>
-          <option value={false}>No</option>
+          <option value="false">No</option>
         </select>
         <label htmlFor="occasion">Candy Occasion:</label>
         <select name="occasion" onChange={(e) => handleChange(e)}>
-          <option value="all">All Occasions</option>
+          <option value="">All Occasions</option>
           <option value="easter">Easter</option>
           <option value="halloween">Halloween</option>
         </select>
