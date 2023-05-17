@@ -46,8 +46,10 @@ function Candy() {
 
   return (
     <div>
-      <Search search={search} onSearch={updateSearch} />
-      <ul className="candy-container">{candyChoice()}</ul>
+      {/* <Search search={search} onSearch={updateSearch} /> */}
+      <div className="container" style={{ marginLeft: 0 }}>
+        <div className="row g-5">{candyChoice()}</div>
+      </div>
     </div>
   );
 }
