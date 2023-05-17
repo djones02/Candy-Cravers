@@ -43,7 +43,7 @@ function CandyItem({ candy }) {
               // minHeight: "200px",
             }}
           >
-            <h5 className="card-title">{candy.name}</h5>
+            <h5 className="card-title" >{candy.name}</h5>
           </div>
           <div className="card__price">
             <div>Amount:</div>

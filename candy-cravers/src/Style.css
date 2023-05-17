@@ -6,6 +6,8 @@
 
 body {
   background-color: #38bdf8;
+  margin: 0;
+  padding: 0;
 }
 
 /* CART */
@@ -30,6 +32,7 @@ body {
 .card-title {
   padding-left: 10px;
   padding-right: 10px;
+  font-family: 'Neucha', cursive;
 }
 
 .card__price {
@@ -38,10 +41,11 @@ body {
   align-items: center;
   gap: 20px;
   background-color: #d1fae5;
+  font-family: 'Neucha', cursive;
 }
 
 .card__price input {
-  max-width: 40px;
+  max-width: 50px;
   border: 1.5px solid black;
   border-radius: 5px;
   background-color: #ecfdf5
@@ -61,11 +65,19 @@ body {
   transition: all 0.15s;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
+  font-family: 'Neucha', cursive;
 }
 
 #add-to-cart:hover {
   background-color: #34d399;
 }
+
+/* NAVBAR */
+
+
+
+
+
 
 /* FORM */
 .form-container {
