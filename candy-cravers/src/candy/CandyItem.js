@@ -22,6 +22,7 @@ function CandyItem({ candy }) {
   }
 
   const amount = parseInt(input);
+  
   return (
     <li className="cards__item">
       <div className="card">
@@ -36,12 +37,13 @@ function CandyItem({ candy }) {
         <div className="card__content"></div>
         <div className="card__detail">
           <div className="card__price">
+            <h4>Amount</h4>
           <input
             type="number"
             value={input}
             onChange={(e) => setInput(e.target.value)}
           ></input>
-          <h4>${candy.price}</h4>
+          <h4>${candy.price.toFixed(2)}</h4>
           </div>
           <button onClick={addToCart} className="add-to-cart">
             {isAdded ? "Added to cart!" : "Add to cart"}
