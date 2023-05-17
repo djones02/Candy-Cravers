@@ -493,7 +493,7 @@
       "price": 2.28,
       "nuts": false,
       "chocolate": false,
-      "occasion": " "
+      "occasion": "halloween"
     },
     {
       "id": 46,
@@ -769,7 +769,140 @@
       "nuts": false,
       "chocolate": false,
       "occasion": "easter"
+    },
+    {
+      "id": 71,
+      "name": "REESE'S, PIECES Peanut Butter in a Crunchy Shell Eggs",
+      "image": "https://i5.walmartimages.com/asr/2568b006-f789-4c6b-a096-f7776ff090dc.d6682f21597331aaf4f90822b09e0047.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/28138e4f-3ef3-43d3-8c69-3bb43bf0109e.33b585e7e31589346570601437fb6205.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 12.99,
+      "nuts": true,
+      "chocolate": false,
+      "occasion": "easter"
+    },
+    {
+      "id": 72,
+      "name": "HERSHEY'S, Milk Chocolate Covered Marshmallow Eggs",
+      "image": "https://i5.walmartimages.com/asr/ab776f49-9dfc-4b3e-8ace-6759b8128007.66ad6477dd626e24f1cec299bd5923f2.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/99229603-f542-4114-bd41-5f02ca9b9b6a.d2448643b8b6abb74f80a54decdb1495.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 8.95,
+      "nuts": false,
+      "chocolate": true,
+      "occasion": "easter"
+    },
+    {
+      "id": 73,
+      "name": "REESE'S, PIECES Peanut Butter in a Crunchy Shell Treats",
+      "image": "https://i5.walmartimages.com/asr/0d44705f-49d7-4f9d-a518-e3cc417d3999.0147caff86e31213ca560edfdcbe8e54.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/8049e729-a641-4a84-9eb3-a2a4a649d4ef.f23740615bb7498ebae4e8ed6846e450.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 6.50,
+      "nuts": true,
+      "chocolate": false,
+      "occasion": "easter"
+    },
+    {
+      "id": 74,
+      "name": "REESE'S, Milk Chocolate and Peanut Butter Eggs",
+      "image": "https://i5.walmartimages.com/asr/9f5617d9-a017-4668-aa43-53f3f9197331.1e9a90786e9502f5cc2f57cbae1a527e.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/a910bfaa-a665-4aae-aaff-3de0e57d709b.eb59e391351bc2a6e00984cc1ef543af.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 13.46,
+      "nuts": true,
+      "chocolate": true,
+      "occasion": "easter"
+    },
+    {
+      "id": 75,
+      "name": "WHOPPERS, Mini Robin Eggs Malted Milk Treats",
+      "image": "https://i5.walmartimages.com/asr/8d7f6d3a-3ad6-495b-95f6-b12e07ba8ceb.e51cd913d2df7b5cbe971b9b136d098a.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/b8b46fe7-258a-493c-b62b-c378cd6a4ca4.27b8211065700aa51e1508987e174956.jpeg",
+      "description": " ",
+      "price": 10.99,
+      "nuts": false,
+      "chocolate": true,
+      "occasion": "easter"
+    },
+    {
+      "id": 76,
+      "name": "HERSHEY'S, KISSES Milk Chocolate Treats",
+      "image": "https://i5.walmartimages.com/asr/6cd6f626-2526-4d07-b2df-fd5004e4e187.a1111f98ab12dea4a90638b2895ec22c.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/09a3ae2d-46d0-4246-b68f-c9225dd898f6.15607782ab66a176b9add8e5f35282de.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 14.00,
+      "nuts": false,
+      "chocolate": true,
+      "occasion": "easter"
+    },
+    {
+      "id": 77,
+      "name": "REESE'S, Miniatures Milk Chocolate Peanut Butter Cups",
+      "image": "https://i5.walmartimages.com/asr/ded8bf78-ddcc-437c-a654-87121d1cfdff.1dcc65aa60e1297de10538e2aac1b167.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/9671ea95-fc63-4b9c-ad97-1119ec9f7afa.379768ec9c50afe91a0056be7f402cf5.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 14.25,
+      "nuts": true,
+      "chocolate": true,
+      "occasion": "easter"
+    },
+    {
+      "id": 78,
+      "name": "HERSHEY'S, Milk Chocolate Mini Bunnies",
+      "image": "https://i5.walmartimages.com/asr/ca3b171f-e8cd-4f46-99d0-6c69a1b283b8.fef19642a31f71f92ae8d9a64b60228b.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/83ae63d3-e320-411c-a890-2bb132353c27.3170b327406af4e34238d6d452b1196d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 11.95,
+      "nuts": false,
+      "chocolate": true,
+      "occasion": "easter"
+    },
+    {
+      "id": 79,
+      "name": "CADBURY, MINI EGGS Milk Chocolate with a Crisp Sugar Shell Candy",
+      "image": "https://i5.walmartimages.com/asr/3d6444e9-0c5c-4d4b-8053-ced09148fd86.909307aef4a5d9beaffa725073e4196c.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/8832a88a-4fc2-4534-bb7a-9b3aaed3f888.813bbc7ef3e346a70892e9b7413f3d3e.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 10.99,
+      "nuts": false,
+      "chocolate": true,
+      "occasion": "easter"
+    },
+    {
+      "id": 80,
+      "name": "KIT KAT®, Miniatures Milk Chocolate Wafer",
+      "image": "https://i5.walmartimages.com/asr/e9957705-5047-4ae2-90f7-a326ba906d49.4613de78cc14c79f3b6f4019b75ca62c.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/c6e19c84-b186-4cb1-b32c-921161e7785e.7fe0b064696ae30362a723b24416df16.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 10.95,
+      "nuts": false,
+      "chocolate": true,
+      "occasion": "easter"
+    },
+    {
+      "id": 81,
+      "name": "Peeps Rainbow Pop",
+      "image": "https://i5.walmartimages.com/asr/3aa5851e-0092-42ed-b62e-1ba66969d560.a83afe288248a8f72d2f523ff9508b6e.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/dfad2d0b-0f27-4a2d-91b0-862c66d1b4de.c61c5bf0e08bf44a044d07e81bf8e199.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 9.99,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "easter"
+    },
+    {
+      "id": 82,
+      "name": "Dove Easter Bunny Dark Chocolate",
+      "image": "https://i5.walmartimages.com/asr/bc81533c-e8a3-456f-b292-2632a511e770.4f1d2a3ce91725846eaddef714e392a9.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/2f74acee-c037-4bab-9257-b8638110cdc4.3e2c4fdb9c83c49a5d7fe24bc310b992.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 13.75,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "easter"
     }
   ],
-  "cart": []
+  "cart": [
+  ]
 }
