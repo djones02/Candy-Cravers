@@ -798,7 +798,7 @@
       "image": "https://i5.walmartimages.com/asr/0d44705f-49d7-4f9d-a518-e3cc417d3999.0147caff86e31213ca560edfdcbe8e54.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
       "back_image": "https://i5.walmartimages.com/asr/8049e729-a641-4a84-9eb3-a2a4a649d4ef.f23740615bb7498ebae4e8ed6846e450.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
       "description": " ",
-      "price": 6.50,
+      "price": 6.5,
       "nuts": true,
       "chocolate": false,
       "occasion": "easter"
@@ -831,7 +831,7 @@
       "image": "https://i5.walmartimages.com/asr/6cd6f626-2526-4d07-b2df-fd5004e4e187.a1111f98ab12dea4a90638b2895ec22c.jpeg",
       "back_image": "https://i5.walmartimages.com/asr/09a3ae2d-46d0-4246-b68f-c9225dd898f6.15607782ab66a176b9add8e5f35282de.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
       "description": " ",
-      "price": 14.00,
+      "price": 14,
       "nuts": false,
       "chocolate": true,
       "occasion": "easter"
@@ -904,5 +904,17 @@
     }
   ],
   "cart": [
+    {
+      "id": 62,
+      "name": "Boston Baked Beans, Candy Coated Peanuts",
+      "image": "https://m.media-amazon.com/images/I/71DocEOQULL.jpg",
+      "back_image": "https://cdn.shopify.com/s/files/1/0515/8371/3441/products/71sJtwalXtL._SL1500_1416x700.jpg?v=1645633002",
+      "description": " ",
+      "price": 1.25,
+      "nuts": true,
+      "chocolate": false,
+      "occasion": " ",
+      "amount": 27
+    }
   ]
 }

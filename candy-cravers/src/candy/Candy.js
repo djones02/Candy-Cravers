@@ -46,7 +46,7 @@ function Candy() {
 
   return (
     <div>
-      {/* <Search search={search} onSearch={updateSearch} /> */}
+      <Search search={search} onSearch={updateSearch} />
       <div className="container" style={{ marginLeft: 0 }}>
         <div className="row g-5">{candyChoice()}</div>
       </div>
