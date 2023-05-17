@@ -25,8 +25,8 @@ function CandyItem({ candy }) {
 
   return (
     <div className="col-xl-1 offset-2 col-lg-2 col-md-3 offset-1 col-sm-5 offset-1 col-xs-8 ">
-      <div className="container" style={{ marginLeft: 0 }}>
-        <div className="card" style={{ width: "250px", minHeight: "470px" }}>
+      <div className="container" >
+        <div className="card" style={{ width: "250px", minHeight: "470px", border:"none" }}>
           <img
             onMouseEnter={handleClick}
             onMouseLeave={handleClick}
@@ -57,6 +57,7 @@ function CandyItem({ candy }) {
           <button
             onClick={addToCart}
             className="btn btn-color btn-lg btn-block"
+            id="add-to-cart"
           >
             {isAdded ? "Added to cart!" : "Add to cart"}
           </button>
