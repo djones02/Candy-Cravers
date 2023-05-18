@@ -76,31 +76,36 @@ function Cart() {
             <p>Thank you for your purchase.</p>
           </div>
         ) : (
-          <div>
-            <h1 style={{display: "flex", flexDirection: "column", alignItems: "center"}}>Cart</h1>
+          <div >
+            <h1 className="cart-title" style={{display: "flex", flexDirection: "column", alignItems: "center", padding:"20px"}}>Cart</h1>
             <div className="container" style={{maxWidth: "300px", marginBottom: "30px"}}>
               {carted.map((candy) => {
                 const itemPrice = candy.price * candy.amount;
                 return (
-                  <div className="card" key={candy.id} style={{marginBottom: "30px"}}>
-                    <img src={candy.image} alt={candy.name} />
-                    <h2>{candy.name}</h2>
-                    <h3>Amount:</h3>
-                    <input type="number" value={candy.amount} onChange={(e) => onAmountChange(e, candy)} min={"1"}/>
-                    <p>Price: ${itemPrice.toFixed(2)}</p>
-                    <button onClick={() => handleDelete(candy)}>Delete</button>
+                  
+                  <div className="card" key={candy.id} style={{marginBottom: "50px", border:"none"}}>
+                    <img className='cart-image' src={candy.image} alt={candy.name} />
+                    <div className='cart-body'>
+                    <h2 className='cart-item'>{candy.name}</h2>
+                    <div style={{display:"flex"}}>
+                    <h3 className='cart-item' style={{marginRight:"20px"}}>Amount:</h3>
+                    <input className="cart-amount" style={{backgroundColor:"#fafaf9"}} type="number" value={candy.amount} onChange={(e) => onAmountChange(e, candy)} min={"1"}/>
+                    </div>
+                    <p className='cart-item'>Price: ${itemPrice.toFixed(2)}</p>
+                    <button className="cart-delete" onClick={() => handleDelete(candy)}>Delete</button>
+                    </div>
                   </div>
                 );
               })}
             </div>
             <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
               <div style={{display: "flex", flexDirection: "column", alignItems: "flex-end"}}>
-            <h3>SubTotal Amount: ${subTotalPrice.toFixed(2)}</h3>
-            <h3>Tax: ${tax.toFixed(2)}</h3>
-            <h1>Total: ${total.toFixed(2)}</h1>
+            <h3 className='cart-total'>SubTotal Amount: ${subTotalPrice.toFixed(2)}</h3>
+            <h3 className='cart-total'>Tax: ${tax.toFixed(2)}</h3>
+            <h1 className='cart-total' id='cart-total'>Total: ${total.toFixed(2)}</h1>
             </div>
             
-            <button onClick={handleCheckout}>Continue to Checkout</button>
+            <button className='cart-checkout' onClick={handleCheckout}>Continue to Checkout</button>
             </div>
           </div>
         )}
