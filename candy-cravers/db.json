@@ -903,5 +903,18 @@
       "occasion": "easter"
     }
   ],
-  "cart": []
+"cart": [
+    {
+      "id": 62,
+      "name": "Boston Baked Beans, Candy Coated Peanuts",
+      "image": "https://m.media-amazon.com/images/I/71DocEOQULL.jpg",
+      "back_image": "https://cdn.shopify.com/s/files/1/0515/8371/3441/products/71sJtwalXtL._SL1500_1416x700.jpg?v=1645633002",
+      "description": " ",
+      "price": 1.25,
+      "nuts": true,
+      "chocolate": false,
+      "occasion": " ",
+      "amount": 27
+    }
+  ]
 }

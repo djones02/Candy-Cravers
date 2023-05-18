@@ -8,7 +8,7 @@ function NewCandyForm() {
     price: 0,
     nuts: false,
     chocolate: false,
-    occasian: "",
+    occasion: "",
     description: "",
   };
   const [form, setForm] = useState(template);
@@ -27,77 +27,166 @@ function NewCandyForm() {
         ...form,
         nuts: form.nuts === "true" ? true : false,
         chocolate: form.chocolate === "true" ? true : false,
+        price: parseInt(form.price),
       }),
     })
       .then((resp) => resp.json())
-      .then((data) => setForm(template));
+      .then(setForm(template));
   }
 
   return (
-    <div className="form-container">
-      <h2>Got a Suggestion? Drop it in the From</h2>
-      <p>And our candy team will work on ordering it for you!</p>
-      <form onSubmit={(e) => handleSubmit(e)} className="form">
-        <label htmlFor="name">Candy Name:</label>
-        <input
-          id="name"
-          name="name"
-          type="text"
-          value={form.name}
-          onChange={(e) => handleChange(e)}
-          placeholder="Enter candy name here..."
-        ></input>
-        <label htmlFor="image">Front Image:</label>
-        <input
-          id="image"
-          name="image"
-          type="text"
-          value={form.image}
-          onChange={(e) => handleChange(e)}
-          placeholder="Enter candy image here..."
-        ></input>
-        <label htmlFor="image">Back Image:</label>
-        <input
-          id="back_image"
-          name="back_image"
-          value={form.back_image}
-          onChange={(e) => handleChange(e)}
-          type="text"
-          placeholder="Enter candy image here..."
-        ></input>
-        <label htmlFor="nuts">Contains nuts?</label>
-        <select name="nuts" onChange={(e) => handleChange(e)}>
-          <option>Select</option>
-          <option value="true">Yes</option>
-          <option value="false">No</option>
-        </select>
-        <label htmlFor="chocolate">Contains Chocolate?</label>
-        <select name="chocolate" onChange={(e) => handleChange(e)}>
-          <option>Select</option>
-          <option value="true">Yes</option>
-          <option value="false">No</option>
-        </select>
-        <label htmlFor="occasion">Candy Occasion:</label>
-        <select name="occasion" onChange={(e) => handleChange(e)}>
-          <option value="">All Occasions</option>
-          <option value="easter">Easter</option>
-          <option value="halloween">Halloween</option>
-        </select>
-        <label htmlFor="image">Suggested Price:</label>
-        <div className="price-container">
-          <span>$</span>
-          <input
-            id="price"
-            name="price"
-            type="text"
-            value={form.price}
+    <section className="form-page-container">
+      <div
+        className="container "
+        style={{
+          paddingTop: "50px",
+          maxWidth: "650px",
+          background: "#ec4899",
+          borderRadius: "30px",
+          paddingLeft: "30px",
+          paddingRight: "30px",
+        }}
+      >
+        <h2
+          style={{
+            color: "white",
+            fontWeight: "600",
+            textShadow: "6px 6px 12px #500724",
+          }}
+        >
+          Got a Suggestion? Drop it in the From
+        </h2>
+        <p style={{ color: "white" }}>
+          And our candy team will work on ordering it for you!
+        </p>
+
+        <form style={{ marginTop: "30px" }} onSubmit={(e) => handleSubmit(e)}>
+          <div className="form-floating " style={{ marginBottom: "20px" }}>
+            <input
+              id="name"
+              className="form-control "
+              style={{ height: "50px" }}
+              name="name"
+              type="text"
+              value={form.name}
+              onChange={(e) => handleChange(e)}
+              placeholder="Enter candy name here..."
+            ></input>
+            <label htmlFor="name">Candy Name:</label>
+          </div>
+          <div className="form-floating" style={{ marginBottom: "20px" }}>
+            <input
+              id="image"
+              style={{ height: "50px" }}
+              name="image"
+              className="form-control"
+              type="text"
+              value={form.image}
+              onChange={(e) => handleChange(e)}
+              placeholder="Enter candy image here..."
+            ></input>
+            <label htmlFor="image">Front Image:</label>
+          </div>
+          <div className="form-floating">
+            <input
+              id="back_image"
+              name="back_image"
+              className="form-control"
+              style={{ height: "50px" }}
+              value={form.back_image}
+              onChange={(e) => handleChange(e)}
+              type="text"
+              placeholder="Enter candy image here..."
+            ></input>
+            <label htmlFor="image">Back Image:</label>
+          </div>
+
+          <label
+            className="form-label"
+            style={{ color: "#fdf2f8" }}
+            htmlFor="nuts"
+          >
+            Contains nuts?
+          </label>
+          <select
+            className="form-select"
+            name="nuts"
             onChange={(e) => handleChange(e)}
-            placeholder="Enter price here..."
-          ></input>
-        </div>
-        <input className="form-submit" type="submit"></input>
-      </form>
-    </div>
+          >
+            <option>Select</option>
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+          </select>
+
+          <label
+            className="form-label"
+            style={{ color: "#fdf2f8" }}
+            htmlFor="chocolate"
+          >
+            Contains Chocolate?
+          </label>
+          <select
+            className="form-select"
+            name="chocolate"
+            onChange={(e) => handleChange(e)}
+          >
+            <option>Select</option>
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+          </select>
+
+          <label
+            className="form-label"
+            htmlFor="occasion"
+            style={{ color: "#fdf2f8" }}
+          >
+            Candy Occasion:
+          </label>
+          <select
+            className="form-select"
+            name="occasion"
+            onChange={(e) => handleChange(e)}
+          >
+            <option>All Occasions</option>
+            <option value="easter">Easter</option>
+            <option value="halloween">Halloween</option>
+          </select>
+
+          <label
+            className="form-label"
+            style={{ color: "#fdf2f8" }}
+            htmlFor="price"
+          >
+            Suggested Price:
+          </label>
+          <div className="input-group">
+            <div className="input-group-text">$</div>
+            <input
+              id="price"
+              name="price"
+              type="number"
+              className="form-control"
+              value={form.price}
+              onChange={(e) => handleChange(e)}
+              placeholder="Enter price here..."
+            ></input>
+            <div className="input-group-text">.00</div>
+          </div>
+
+          <button
+            className="btn btn-info btn-block"
+            style={{
+              width: "100%",
+              borderRadius: "100px",
+              marginTop: "18px",
+              marginBottom: "10px",
+            }}
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
   );
 }
 
