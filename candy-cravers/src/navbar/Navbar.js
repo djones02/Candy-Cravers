@@ -3,14 +3,9 @@ import {Link} from 'react-router-dom'
 
 function Navbar() {
   return (
-    <nav className='navbar navbar-expand-lg bg-dark navbar-dark' >
+    <nav className='navbar navbar-expand-lg navbar-dark' >
       <div className='container'>
         <Link className='navbar-brand' to="/" >Candy Cravers</Link>
-      {/* <a href='navbar' className='toggle-button'>
-        <span className='bar'></span>
-        <span className='bar'></span>
-        <span className='bar'></span>
-      </a> */}
       <button className='navbar-toggler' type='button' data-bs-toggle="collapse" data-bs-target="#navmenu">
         <span className='navbar-toggler-icon'></span>
       </button>
