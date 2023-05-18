@@ -76,14 +76,16 @@ function Cart() {
             <p>Thank you for your purchase.</p>
           </div>
         ) : (
-          <div >
-            <h1 className="cart-title" style={{display: "flex", flexDirection: "column", alignItems: "center", padding:"20px"}}>Cart</h1>
+          <div className='cart-page'>
+            <div className='cart-h1' style={{margin: "auto"}}>
+            <h1 className="cart-title" style={{boxShadow: "5px 5px 10px #1f2937", marginBottom:"30px", borderTop:"1px solid #fafaf9"}}>Cart</h1>
+            </div>
             <div className="container" style={{maxWidth: "300px", marginBottom: "30px"}}>
               {carted.map((candy) => {
                 const itemPrice = candy.price * candy.amount;
                 return (
                   
-                  <div className="card" key={candy.id} style={{marginBottom: "50px", border:"none"}}>
+                  <div className="card" key={candy.id} style={{marginBottom: "50px", border:"none", boxShadow: "5px 5px 10px #1f2937"}}>
                     <img className='cart-image' src={candy.image} alt={candy.name} />
                     <div className='cart-body'>
                     <h2 className='cart-item'>{candy.name}</h2>
@@ -99,13 +101,13 @@ function Cart() {
               })}
             </div>
             <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-              <div style={{display: "flex", flexDirection: "column", alignItems: "flex-end"}}>
+              <div style={{display: "flex", flexDirection: "column", alignItems: "flex-end", backgroundColor: "#fafaf9", padding:"20px", borderRadius: "20px", marginBottom: "30px", boxShadow: "5px 5px 10px #1f2937"}}>
             <h3 className='cart-total'>SubTotal Amount: ${subTotalPrice.toFixed(2)}</h3>
             <h3 className='cart-total'>Tax: ${tax.toFixed(2)}</h3>
             <h1 className='cart-total' id='cart-total'>Total: ${total.toFixed(2)}</h1>
             </div>
             
-            <button className='cart-checkout' onClick={handleCheckout}>Continue to Checkout</button>
+            <button className='cart-checkout' style={{boxShadow: "5px 5px 10px #1f2937"}} onClick={handleCheckout}>Continue to Checkout</button>
             </div>
           </div>
         )}
