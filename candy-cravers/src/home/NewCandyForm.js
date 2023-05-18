@@ -5,7 +5,7 @@ function NewCandyForm() {
     name: "",
     image: "",
     back_image: "",
-    price: 0,
+    price: "1",
     nuts: false,
     chocolate: false,
     occasion: "",
@@ -159,6 +159,7 @@ function NewCandyForm() {
           >
             Suggested Price:
           </label>
+          <div className="form-floating" style={{ marginBottom: "20px" }}>
           <div className="input-group">
             <div className="input-group-text">$</div>
             <input
@@ -169,8 +170,9 @@ function NewCandyForm() {
               value={form.price}
               onChange={(e) => handleChange(e)}
               placeholder="Enter price here..."
-            ></input>
-            <div className="input-group-text">.00</div>
+              min={"1"}
+              ></input>
+          </div>
           </div>
 
           <button

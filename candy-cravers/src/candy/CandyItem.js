@@ -3,7 +3,7 @@ import { useState } from "react";
 function CandyItem({ candy }) {
   const [isOn, setIsOn] = useState(true);
   const [isAdded, setIsAdded] = useState(false);
-  const [input, setInput] = useState(0);
+  const [input, setInput] = useState(1);
 
   function handleClick() {
     setIsOn((isOn) => !isOn);
@@ -50,7 +50,15 @@ function CandyItem({ candy }) {
             <input
               type="number"
               value={input}
-              onChange={(e) => setInput(e.target.value)}
+              onChange={(e) => {
+                const value = parseInt(e.target.value)
+                if (value >= 1) {
+                  setInput(value)
+                } else {
+                  setInput(1)
+                }
+              }}
+              min={"1"}
             ></input>
             <div>Price: ${candy.price.toFixed(2)}</div>
           </div>
