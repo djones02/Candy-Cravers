@@ -35,7 +35,7 @@ function NewCandyForm() {
   }
 
   return (
-    <section className="form-page-container">
+    <section className="form-page-container" style={{paddingTop:"80px"}}>
       <div
         className="container "
         style={{
