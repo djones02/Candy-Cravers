@@ -10,6 +10,20 @@ body {
   padding: 0;
 }
 
+/* ABOUT */
+
+.about-primary-header {
+  font-family: "Neucha", cursive;
+
+  padding-top: 30px;
+}
+.about-secondary-header {
+  font-family: "Neucha", cursive;
+  margin-top: 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
 .home-container {
   /* background-image: url("https://images.unsplash.com/photo-1657641908545-592c2a8e3b79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"); */
   background-size: contain;
@@ -39,7 +53,7 @@ body {
 .card-title {
   padding-left: 10px;
   padding-right: 10px;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
 }
 
 .card__price {
@@ -48,7 +62,7 @@ body {
   align-items: center;
   gap: 20px;
   background-color: #d1fae5;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
 }
 
 .card__price input {
@@ -72,7 +86,7 @@ body {
   transition: all 0.15s;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
 }
 
 #add-to-cart:hover {
@@ -86,7 +100,7 @@ body {
 }
 
 .navbar-brand {
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   font-size: xx-large;
   color: #fafaf9;
 }
@@ -109,14 +123,13 @@ body {
   display: flex;
   justify-content: center;
   color: #fafaf9;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   font-size: large;
 }
 
 .navbar-toggler {
   color: #fafaf9;
 }
-
 
 /* SEARCH */
 .form {
@@ -142,17 +155,11 @@ body {
 
 .form-input:hover {
   background-color: #fafaf9;
-  
 }
-
 
 /* FORM */
 .form-page-container {
   background-image: url("../imgs/candy-imgs/alexander-grey-1wz7cN1XTmk-unsplash.jpg");
   background-size: cover;
   height: 100vh;
-}
-
-#halloween-img {
-  background-image: url("../imgs/candy-imgs/skeleton-homepage.jpg");
 }
