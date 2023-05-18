@@ -74,9 +74,68 @@ body {
 
 /* NAVBAR */
 
+.navbar {
+  background-color: #10b981;
+}
+
+.navbar-brand {
+  font-family: 'Neucha', cursive;
+  font-size: xx-large;
+  color: #fafaf9;
+}
+
+.navbar-toggler:hover {
+  background-color: #34d399;
+}
+
+.navbar-brand:hover {
+  background-color: #34d399;
+  border-radius: 7px;
+}
+
+.nav-item:hover {
+  background-color: #34d399;
+  border-radius: 7px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  color: #fafaf9;
+  font-family: 'Neucha', cursive;
+  font-size: large;
+}
+
+.navbar-toggler {
+  color: #fafaf9;
+}
 
 
+/* SEARCH */
+.form {
+  position: relative;
+  border: none;
+}
 
+.form .fa-search {
+  position: absolute;
+}
+
+.form span {
+  position: absolute;
+}
+
+.form-input {
+  text-indent: 33px;
+  border-radius: 10px;
+  background-color: #d1fae5;
+  border: none;
+}
+
+.form-input:hover {
+  background-color: #fafaf9;
+  
+}
 
 
 /* FORM */
