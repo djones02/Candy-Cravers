@@ -43,10 +43,10 @@ function Candy() {
   function updateSearch(newSearch) {
     setSearch(newSearch);
   }
-
+  
   return (
     <div className="all-candy-div">
-      <Search search={search} onSearch={updateSearch} />
+      <Search search={search} onSearch={updateSearch} className="search"/>
       <div className="container" style={{ marginLeft: 0 }}>
         <div className="row g-5">{candyChoice()}</div>
       </div>
