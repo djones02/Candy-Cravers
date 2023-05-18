@@ -276,7 +276,7 @@ body {
 .halloween {
   background-size: contain;
   background-repeat: repeat;
-  padding-bottom: 50px;
+  padding-bottom: 250px;
   background-image: linear-gradient( rgba(42, 42, 42, 0.15),rgba(42, 42, 42, 0.15)), url(https://images.unsplash.com/photo-1637209697457-f88bc41d4545?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2050&q=80);
 }
 
@@ -411,20 +411,20 @@ body {
 .easter {
   background-size: contain;
   background-repeat: repeat;
-  padding-bottom: 50px;
+  padding-bottom: 250px;
   background-image: linear-gradient( rgba(42, 42, 42, 0.15),rgba(42, 42, 42, 0.15)), url(https://images.unsplash.com/photo-1499195333224-3ce974eecb47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1502&q=80);
 }
 
 .all {
   background-size: contain;
   background-repeat: repeat;
-  padding-bottom: 50px;
+  padding-bottom: 250px;
   background-image: linear-gradient( rgba(42, 42, 42, 0.10),rgba(42, 42, 42, 0.10)), url(https://images.unsplash.com/photo-1581798459219-318e76aecc7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1493&q=80);
 }
 
 .cart-page {
   background-size: contain;
   background-repeat: repeat;
-  padding-bottom: 50px;
+  padding-bottom: 250px;
   background-image: linear-gradient( rgba(42, 42, 42, 0.15),rgba(42, 42, 42, 0.15)), url(https://images.unsplash.com/photo-1600359746315-119f1360d663?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=988&q=80)
 }
