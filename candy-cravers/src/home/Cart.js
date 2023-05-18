@@ -77,12 +77,12 @@ function Cart() {
           </div>
         ) : (
           <div>
-            <h1>Cart</h1>
-            <div className="cart-list">
+            <h1 style={{display: "flex", flexDirection: "column", alignItems: "center"}}>Cart</h1>
+            <div className="container" style={{maxWidth: "300px", marginBottom: "30px"}}>
               {carted.map((candy) => {
                 const itemPrice = candy.price * candy.amount;
                 return (
-                  <div className="card" key={candy.id}>
+                  <div className="card" key={candy.id} style={{marginBottom: "30px"}}>
                     <img src={candy.image} alt={candy.name} />
                     <h2>{candy.name}</h2>
                     <h3>Amount:</h3>
@@ -93,10 +93,15 @@ function Cart() {
                 );
               })}
             </div>
+            <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+              <div style={{display: "flex", flexDirection: "column", alignItems: "flex-end"}}>
             <h3>SubTotal Amount: ${subTotalPrice.toFixed(2)}</h3>
             <h3>Tax: ${tax.toFixed(2)}</h3>
-            <h1>Total ${total.toFixed(2)}</h1>
+            <h1>Total: ${total.toFixed(2)}</h1>
+            </div>
+            
             <button onClick={handleCheckout}>Continue to Checkout</button>
+            </div>
           </div>
         )}
       </div>
