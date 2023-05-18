@@ -42,7 +42,18 @@ function Home() {
                 alt="Best Candy"
               />
               <div className="card-body">
-                <h5 className="card-title">A Candy Connoisseur</h5>
+                <h5 className="card-title">
+                  "They have every candy you could ever want, and then some!"
+                  <span
+                    style={{
+                      fontSize: "14px",
+                      marginLeft: "5px",
+                      color: "#be185d",
+                    }}
+                  >
+                    @the_candy_Connoisseur
+                  </span>
+                </h5>
               </div>
             </div>
           </div>
@@ -140,7 +151,18 @@ function Home() {
                 alt="Best Candy"
               />
               <div className="card-body">
-                <h5 className="card-title">Human Photo</h5>
+                <h5 className="card-title">
+                  "Best Valentine's Day gift ever!"
+                  <span
+                    style={{
+                      fontSize: "14px",
+                      marginLeft: "5px",
+                      color: "#6b21a8",
+                    }}
+                  >
+                    @fly_chick_7511
+                  </span>
+                </h5>
               </div>
             </div>
           </div>
@@ -158,7 +180,18 @@ function Home() {
                 alt="Best Candy"
               />
               <div className="card-body">
-                <h5 className="card-title">Human Photo</h5>
+                <h5 className="card-title">
+                  "I take my candy everywhere!"
+                  <span
+                    style={{
+                      fontSize: "14px",
+                      marginLeft: "5px",
+                      color: "#1d4ed8",
+                    }}
+                  >
+                    @king-of-bushwick97
+                  </span>
+                </h5>
               </div>
             </div>
           </div>
@@ -176,7 +209,18 @@ function Home() {
                 alt="Best Candy"
               />
               <div className="card-body">
-                <h5 className="card-title">Human Photo</h5>
+                <h5 className="card-title">
+                  "I DIY all the time with my candies"{" "}
+                  <span
+                    style={{
+                      fontSize: "14px",
+                      marginLeft: "5px",
+                      color: "#4d7c0f",
+                    }}
+                  >
+                    @mama_crafter-life24
+                  </span>{" "}
+                </h5>
               </div>
             </div>
           </div>
