@@ -15,7 +15,7 @@ function Search({ search, onSearch }) {
               value={search} 
               onChange={(e) => onSearch(e.target.value)}
               />
-              <span className="left-pan"><i className="fa fa-microphone"></i></span>
+              <span className="left-pan"></span>
             </div>
           </div>
         </div>

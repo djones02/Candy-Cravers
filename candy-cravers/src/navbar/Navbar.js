@@ -27,7 +27,7 @@ function Navbar() {
               <Link className='nav-link' to="/candy/new" >New Candy</Link>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' to="/cart" >Cart</Link>
+              <Link className='nav-link' to="/cart" ><i class="fa-solid fa-cart-shopping"></i></Link>
             </li>
           </ul>
         </div>
