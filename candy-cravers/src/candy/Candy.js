@@ -38,6 +38,14 @@ function Candy() {
         .map((candy) => {
           return <CandyItem candy={candy} key={candy.id} />;
         });
+    } else if (occasion === "valentines") {
+      return searchedCandy
+        .filter((candy) => {
+          return candy.occasion === occasion
+        })
+        .map((candy) => {
+          return <CandyItem candy={candy} key={candy.id} />
+        })
     }
   }
   function updateSearch(newSearch) {

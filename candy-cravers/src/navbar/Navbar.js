@@ -24,6 +24,9 @@ function Navbar() {
               <Link className='nav-link' to="/candy/halloween" >Halloween Candy</Link>
             </li>
             <li className='nav-item'>
+              <Link className='nav-link' to="/candy/valentines" >Valentines Candy</Link>
+            </li>
+            <li className='nav-item'>
               <Link className='nav-link' to="/candy/new" >New Candy</Link>
             </li>
             <li className='nav-item'>
