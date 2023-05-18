@@ -461,3 +461,38 @@ body {
   border-radius: 30px;
   box-shadow: "5px 5px 10px black";
 }
+
+::-webkit-scrollbar-thumb {
+  background: 
+  repeating-linear-gradient(
+    45deg,
+    #ffffff,
+    #f70a0a 10px,
+    #f50808 10px,
+    #ffffff 20px
+  );
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: repeating-linear-gradient(
+    45deg,
+    #ffffff,
+    #f70a0a 10px,
+    #f50808 10px,
+    #ffffff 20px
+  );
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+  /* repeating-linear-gradient(
+    45deg,
+    #ffffff,
+    #f70a0a 10px,
+    #f50808 10px,
+    #ffffff 20px
+    
+  ); */
+}
+ 
