@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function NewCandyForm() {
+  const [formComplete, setFormComplete] = useState(false)
   const template = {
     name: "",
     image: "",
@@ -32,9 +33,17 @@ function NewCandyForm() {
     })
       .then((resp) => resp.json())
       .then(setForm(template));
+      setFormComplete(true)
   }
 
-  return (
+  return (    
+    <>
+    {formComplete ? (
+      <div>
+        <h1>Form Submitted!</h1>
+        <p>Thank you for your suggestion</p>
+      </div>
+    ) : (
     <section className="form-page-container" style={{paddingTop:"80px"}}>
       <div
         className="container "
@@ -187,10 +196,13 @@ function NewCandyForm() {
           >
             Submit
           </button>
-        </form>
-      </div>
-    </section>
+          </form>
+          </div>
+        </section>
+      )}
+    </>
   );
+
 }
 
 export default NewCandyForm;

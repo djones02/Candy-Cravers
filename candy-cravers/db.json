@@ -1099,6 +1099,17 @@
       "nuts": false,
       "chocolate": false,
       "occasion": "halloween"
+    },
+    {
+      "name": "",
+      "image": "",
+      "back_image": "",
+      "price": 1,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "",
+      "description": "",
+      "id": 101
     }
   ],
   "cart": []
