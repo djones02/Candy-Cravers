@@ -437,3 +437,38 @@ body {
   padding-bottom: 250px;
   background-image: linear-gradient( rgba(42, 42, 42, 0.15),rgba(42, 42, 42, 0.15)), url(https://images.unsplash.com/photo-1600359746315-119f1360d663?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=988&q=80)
 }
+
+::-webkit-scrollbar-thumb {
+  background: 
+  repeating-linear-gradient(
+    45deg,
+    #ffffff,
+    #f70a0a 10px,
+    #f50808 10px,
+    #ffffff 20px
+  );
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: repeating-linear-gradient(
+    45deg,
+    #ffffff,
+    #f70a0a 10px,
+    #f50808 10px,
+    #ffffff 20px
+  );
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+  /* repeating-linear-gradient(
+    45deg,
+    #ffffff,
+    #f70a0a 10px,
+    #f50808 10px,
+    #ffffff 20px
+    
+  ); */
+}
+ 
