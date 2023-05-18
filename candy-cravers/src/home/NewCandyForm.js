@@ -185,6 +185,7 @@ function NewCandyForm() {
             <option>All Occasions</option>
             <option value="easter">Easter</option>
             <option value="halloween">Halloween</option>
+            <option value="valentines">Valentines</option>
           </select>
 
           <label

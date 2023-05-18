@@ -263,6 +263,7 @@ body {
 
 .form-label {
   font-family: "Neucha", cursive;
+  font-weight: 600;
 }
 
 .form-button {
@@ -430,6 +431,13 @@ body {
       rgba(42, 42, 42, 0.15)
     ),
     url(https://images.unsplash.com/photo-1499195333224-3ce974eecb47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1502&q=80);
+}
+
+.valentines {
+  background-size: contain;
+  background-repeat: repeat;
+  padding-bottom: 250px;
+  background-image: linear-gradient( rgba(42, 42, 42, 0.15),rgba(42, 42, 42, 0.15)), url(https://images.unsplash.com/photo-1612328289561-0edd72aefc43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80);
 }
 
 .all {

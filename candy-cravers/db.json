@@ -1099,7 +1099,75 @@
       "nuts": false,
       "chocolate": false,
       "occasion": "halloween"
+    },
+    {
+      "id": 101,
+      "name": "Whitman's Valentine Sampler Assorted Chocolates",
+      "image": "https://i5.walmartimages.com/asr/5a82b539-6f9c-4104-b0d3-f0581da3ba71_1.ba1206686f104558be173298b8c4e7be.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/2c60e511-b2c2-4d7e-9cf6-bb2b6fb21fc7_4.fb8047b1316781854525ecac3f47a23a.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 15.55,
+      "nuts": true,
+      "chocolate": true,
+      "occasion": "valentines"
+    },
+    {
+      "id": 102,
+      "name": "HERSHEY'S KISSES Milk Chocolate Candy",
+      "image": "https://i5.walmartimages.com/asr/bada09fc-5cca-459f-9bf0-c495e914bcb5.ae1008d6b7c80dbfe9aa24e7439a1f20.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/982837a3-7e94-438f-9041-ccdb1e96bd30.78af96ad1b76e7ebddb3626f68f149d4.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 17.99,
+      "nuts": false,
+      "chocolate": true,
+      "occasion": "valentines"
+    },
+    {
+      "id": 103,
+      "name": "REESE'S Miniatures Milk Chocolate Peanut Butter Cups",
+      "image": "https://i5.walmartimages.com/asr/100ea7ab-8145-4197-9626-a9eba5b84479.ff410e550628a22ada895f5e6b01a6e2.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/4ac83605-4dd4-463b-8563-b6bfc21bf6fd.c2711f4cd8b66cd1e68ee1b498d130b0.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 6.99,
+      "nuts": true,
+      "chocolate": true,
+      "occasion": "valentines"
+    },
+    {
+      "id": 104,
+      "name": "SOUR PATCH KIDS Candy Hearts",
+      "image": "https://i5.walmartimages.com/asr/d901a37f-7614-4e93-ae29-60a445996595.a483fe638b8a5a39edef89920c6d061e.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/b2c44434-6419-4f3c-9ff5-379e0a4dd4bb.d3c6664107984b8327136f2303d5972e.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 14.97,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "valentines"
+    },
+    {
+      "id": 105,
+      "name": "Wonka Fun Dip",
+      "image": "https://i5.walmartimages.com/asr/25de8604-56ae-4acf-8f13-05793d12f1cc_1.8bb0455a9091dc4a9c170925c5881df1.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/9c43e2d9-fe6f-4b86-9415-4125cd4f8e80_1.52fcafbdcdbfec2a6732f6fcb629dfee.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "description": " ",
+      "price": 8.73,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "valentines"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": 6,
+      "name": "Rolo, Chewy Caramels in Milk Chocolate",
+      "image": "https://i5.walmartimages.com/asr/7178d695-c7f1-4c7e-9430-98e2b2e6eef4_1.f9ee997807fe5ef4d972a088b14444f0.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/2d325009-978d-410f-8537-5da437d2bdc6.2f14fff4c79aec634402b7965d968a90.jpeg",
+      "description": " ",
+      "price": 1.24,
+      "nuts": false,
+      "chocolate": true,
+      "occasion": " ",
+      "amount": 3
+    }
+  ]
 }
