@@ -114,6 +114,7 @@ body {
 .form {
   position: relative;
   border: none;
+  padding: 30px;
 }
 
 .form .fa-search {
@@ -127,7 +128,7 @@ body {
 .form-input {
   text-indent: 33px;
   border-radius: 10px;
-  background-color: #d1fae5;
+  background-color: #a7f3d0;
   border: none;
 }
 
