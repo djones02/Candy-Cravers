@@ -1,21 +1,15 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <div>
-      <div className="container" style={{ marginTop: "50px" }}>
+    <div className='home-container' >
+      <div className="container" style={{marginTop:"50px", }}>
         <div className="row g-5">
           <div className="col-lg-4 col-md-5 col-sm-8">
-            <div className="card" id="home-card">
-              <Link className="nav-link" to="/candy/all">
-                <img
-                  src={
-                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcShcJPcuKfIrn6apvbhXgMcI4-f-IPw8dCI-HvkbkD6Ort47OKHyJJmAqu5FnZEH5BK2uwPwLBk5WXqOka2hBhTX0UgfFh1E6TRACERrqBeuprnqTGiDLaj&usqp=CAE"
-                  }
-                  className="card-img-top"
-                  alt="Halloween"
-                />
+            <div className='card' id='home-card'>
+              <Link className='nav-link' to="/candy/all">
+                <img src={"https://images.unsplash.com/photo-1621939514649-280e2ee25f60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNhbmR5fGVufDB8fDB8fHwy&auto=format&fit=crop&w=700&q=60"} className="card-img-top" alt="Halloween" />
               </Link>
               <div className="card-body">
                 <h5 className="card-title">All Candy</h5>
@@ -23,15 +17,17 @@ function Home() {
             </div>
           </div>
           <div className="col-lg-4 col-md-5 col-sm-8">
-            <div className="card" id="home-card">
-              <Link className="nav-link" to="/candy/easter">
-                <img
-                  src={
-                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR6J1rc5HYZc_T2qaVGpJLfWm5FWkABd56sWCjlMUu_JUrzREz_Sl-0GmSWYVC7zUIUwMEnHnQ8ddAfZ8h5Kr41bMY1WDT-5nG3gjSQg_hlWSeq7Ta9ICGQmA&usqp=CAE"
-                  }
-                  className="card-img-top"
-                  alt="Easter"
-                />
+            <div className='card' id='home-card'>
+              <img src={'https://images.unsplash.com/photo-1579619312739-8d373e647330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=998&q=80'} className="card-img-top" alt="Best Candy" />
+              <div className="card-body">
+                <h5 className="card-title">A Candy Connoisseur</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-5 col-sm-8">
+            <div className='card' id='home-card'>
+              <Link className='nav-link' to="/candy/easter">
+                <img src={"https://images.unsplash.com/photo-1522336704934-6f4be128439b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"} className="card-img-top" alt="Easter" />
               </Link>
               <div className="card-body">
                 <h5 className="card-title">Easter</h5>
@@ -39,13 +35,9 @@ function Home() {
             </div>
           </div>
           <div className="col-lg-4 col-md-5 col-sm-8">
-            <div className="card" id="home-card">
-              <Link className="nav-link" to="/candy/halloween">
-                <img
-                  src="https://media.istockphoto.com/id/1366223663/photo/beautiful-portrait-of-an-african-girl-with-a-heart-shaped-lollipop.jpg?s=612x612&w=0&k=20&c=gSyFVEL_ZOTYvKTmZ8oimX9p9eoowWKtptXh4JXiP5c="
-                  className="card-img-top"
-                  alt="Halloween"
-                />
+            <div className='card' id='home-card'>
+              <Link className='nav-link' id="halloween-img" to="/candy/halloween">
+                <img src={"https://images.unsplash.com/photo-1604227878600-00157ecb7c74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"} className="card-img-top" alt="Halloween" />
               </Link>
               <div className="card-body">
                 <h5 className="card-title">Halloween</h5>
@@ -53,16 +45,42 @@ function Home() {
             </div>
           </div>
           <div className="col-lg-4 col-md-5 col-sm-8">
-            <div className="card" id="home-card">
-              <img
-                src={
-                  "https://cdn.mos.cms.futurecdn.net/HKoTi86VCh6w8ttHS5kL5W-1200-80.jpg"
-                }
-                className="card-img-top"
-                alt="Best Candy"
-              />
+            <div className='card' id='home-card'>
+              <img src={"https://assets3.thrillist.com/v1/image/3049886/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70"} className="card-img-top" alt="Best Candy" />
               <div className="card-body">
                 <h5 className="card-title">Best Candy!</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-5 col-sm-8">
+            <div className='card' id='home-card'>
+              <img src={"https://images.unsplash.com/photo-1632687380457-05a1271e873b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"} className="card-img-top" alt="Best Candy" />
+              <div className="card-body">
+                <h5 className="card-title">Candy of the Day!</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-5 col-sm-8">
+            <div className='card' id='home-card'>
+              <img src={"https://media.istockphoto.com/id/1366223663/photo/beautiful-portrait-of-an-african-girl-with-a-heart-shaped-lollipop.jpg?s=612x612&w=0&k=20&c=gSyFVEL_ZOTYvKTmZ8oimX9p9eoowWKtptXh4JXiP5c="} className="card-img-top" alt="Best Candy" />
+              <div className="card-body">
+                <h5 className="card-title">Human Photo</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-5 col-sm-8">
+            <div className='card' id='home-card'>
+              <img src={"https://images.unsplash.com/photo-1537216559801-9cfef32e9b93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=988&q=80"} className="card-img-top" alt="Best Candy" />
+              <div className="card-body">
+                <h5 className="card-title">Human Photo</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-5 col-sm-8">
+            <div className='card' id='home-card'>
+              <img src={"https://images.unsplash.com/photo-1543590433-0421aace00b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1438&q=80"} className="card-img-top" alt="Best Candy" />
+              <div className="card-body">
+                <h5 className="card-title">Human Photo</h5>
               </div>
             </div>
           </div>
