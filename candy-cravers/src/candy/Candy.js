@@ -46,10 +46,12 @@ function Candy() {
 
   const containerClassName = `${occasion}`
   
+  const containerClassName = `container ${occasion}`
+
   return (
     <div className={containerClassName}>
       <Search search={search} onSearch={updateSearch} className="search"/>
-      <div className="container" style={{ marginLeft: 0 }}>
+      <div className={containerClassName} style={{ marginLeft: 0 }}>
         <div className="row g-5">{candyChoice()}</div>
       </div>
     </div>

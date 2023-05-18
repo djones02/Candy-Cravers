@@ -12,16 +12,39 @@ body {
 
 /* ABOUT */
 
+.about-container {
+  background-image: url("https://images.unsplash.com/photo-1606797020447-cf605fc9e408?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGNhbmR5fGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60");
+  background-size: contain;
+  /* height: 100vh; */
+  padding-bottom: 50px;
+}
+
 .about-primary-header {
   font-family: "Neucha", cursive;
-
   padding-top: 30px;
+  font-size: 42px;
 }
 .about-secondary-header {
   font-family: "Neucha", cursive;
-  margin-top: 30px;
-  font-size: 18px;
+  margin-top: 65px;
+  font-size: 24px;
   text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-candy-text {
+  font-family: "Neucha", cursive;
+  font-size: 21px;
+  line-height: 1.76;
+  letter-spacing: 1.28px;
+}
+
+.about-img {
+  width: 180px;
+  height: 185px;
+  box-shadow: 8px 8px 10px rgba(81, 81, 81, 0.7);
+  border-radius: 100px;
 }
 
 .home-container {
@@ -29,7 +52,11 @@ body {
   background-size: contain;
   background-repeat: repeat;
   padding-bottom: 30px;
-  background-image: linear-gradient( rgba(42, 42, 42, 0.15),rgba(42, 42, 42, 0.15)), url("https://images.unsplash.com/photo-1657641908545-592c2a8e3b79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+  background-image: linear-gradient(
+      rgba(42, 42, 42, 0.15),
+      rgba(42, 42, 42, 0.15)
+    ),
+    url("https://images.unsplash.com/photo-1657641908545-592c2a8e3b79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
 }
 
 /* CART */
