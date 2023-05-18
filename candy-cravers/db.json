@@ -1101,30 +1101,5 @@
       "occasion": "halloween"
     }
   ],
-  "cart": [
-    {
-      "id": 62,
-      "name": "Boston Baked Beans, Candy Coated Peanuts",
-      "image": "https://m.media-amazon.com/images/I/71DocEOQULL.jpg",
-      "back_image": "https://cdn.shopify.com/s/files/1/0515/8371/3441/products/71sJtwalXtL._SL1500_1416x700.jpg?v=1645633002",
-      "description": " ",
-      "price": 1.25,
-      "nuts": true,
-      "chocolate": false,
-      "occasion": " ",
-      "amount": 27
-    },
-    {
-      "id": 1,
-      "name": "Reese's Peanut Butter Cup",
-      "image": "https://i5.walmartimages.com/asr/892fd592-8943-49fe-88da-6e6ec25ff2ab.3de47ea5094f7014c1eaf20ff731c091.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
-      "back_image": "https://i5.walmartimages.com/asr/ecb6cea6-4e95-49fc-a118-4d19594d00c9.16836d957dc6e1234029c31ff8cba039.jpeg",
-      "description": " ",
-      "price": 1.24,
-      "nuts": true,
-      "chocolate": true,
-      "occasion": " ",
-      "amount": 4
-    }
-  ]
+  "cart": []
 }
