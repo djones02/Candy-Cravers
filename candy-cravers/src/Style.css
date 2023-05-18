@@ -15,8 +15,9 @@ body {
 .about-container {
   background-image: url("https://images.unsplash.com/photo-1606797020447-cf605fc9e408?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGNhbmR5fGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60");
   background-size: contain;
+  background-repeat: repeat;
   /* height: 100vh; */
-  padding-bottom: 50px;
+  padding-bottom: 300px;
 }
 
 .about-primary-header {
@@ -68,6 +69,15 @@ body {
 .cart-title {
   font-family: "Neucha", cursive;
   font-weight: 600;
+  text-align: center;
+  color: #fafaf9
+}
+
+.cart-h1 {
+  background-color: #10b981;
+  width: 200px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .cart-item {
@@ -123,9 +133,7 @@ body {
 }
 /* CANDY CARD CONTAINER*/
 
-.all {
-  background-color: #d1fae5;
-}
+
 /* CANDY CARD */
 
 .card {
@@ -186,6 +194,7 @@ body {
 .navbar-brand {
   font-family: "Neucha", cursive;
   font-size: xx-large;
+  font-weight: 700;
   color: #fafaf9;
 }
 
@@ -248,13 +257,27 @@ body {
   height: 100vh;
 }
 
+.form-content {
+  font-family: "Neucha", cursive;
+  font-weight: 600;
+}
+
+.form-label {
+  font-family: "Neucha", cursive;
+}
+
+.form-button {
+  font-family: "Neucha", cursive;
+  font-weight: 600;
+}
+
 /* HALLOWEEN */
 
 .halloween {
   background-size: contain;
   background-repeat: repeat;
-  padding-bottom: 500px;
-  background-image: linear-gradient( rgba(42, 42, 42, 0.15),rgba(42, 42, 42, 0.15)), url(https://images.unsplash.com/photo-1637209697470-fde25c843648?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1335&q=80);
+  padding-bottom: 50px;
+  background-image: linear-gradient( rgba(42, 42, 42, 0.15),rgba(42, 42, 42, 0.15)), url(https://images.unsplash.com/photo-1637209697457-f88bc41d4545?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2050&q=80);
 }
 
 
@@ -382,4 +405,26 @@ body {
   100% {
     transform: rotateZ(15deg) rotateY(1440deg) translate(10vw, 110vh);
   }
+}
+
+
+.easter {
+  background-size: contain;
+  background-repeat: repeat;
+  padding-bottom: 50px;
+  background-image: linear-gradient( rgba(42, 42, 42, 0.15),rgba(42, 42, 42, 0.15)), url(https://images.unsplash.com/photo-1499195333224-3ce974eecb47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1502&q=80);
+}
+
+.all {
+  background-size: contain;
+  background-repeat: repeat;
+  padding-bottom: 50px;
+  background-image: linear-gradient( rgba(42, 42, 42, 0.10),rgba(42, 42, 42, 0.10)), url(https://images.unsplash.com/photo-1581798459219-318e76aecc7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1493&q=80);
+}
+
+.cart-page {
+  background-size: contain;
+  background-repeat: repeat;
+  padding-bottom: 50px;
+  background-image: linear-gradient( rgba(42, 42, 42, 0.15),rgba(42, 42, 42, 0.15)), url(https://images.unsplash.com/photo-1600359746315-119f1360d663?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=988&q=80)
 }
