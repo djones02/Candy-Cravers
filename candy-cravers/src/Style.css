@@ -407,6 +407,15 @@ body {
   }
 }
 
+.fa-cart-shopping {
+  padding-top: 4px;
+  color: #fafaf9
+}
+
+.fa-search {
+  padding-top: 10px;
+  padding-left: 12px;
+}
 
 .easter {
   background-size: contain;
