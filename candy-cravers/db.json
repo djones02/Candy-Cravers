@@ -901,6 +901,39 @@
       "nuts": false,
       "chocolate": false,
       "occasion": "easter"
+    },
+    {
+      "name": "pepper",
+      "image": "https://st2.depositphotos.com/2482107/6710/i/950/depositphotos_67106047-stock-photo-old-iron-1935-soviet-union.jpg",
+      "back_image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTqSE3V4IjJ56iTZrHDYO-o3s2Hk1J8bJK_CxuTENaeVY-5UkbKe2NzvAG_4kbQJZoTUoyA_11ew-FvQmI88HyahwUvxsGkIUsaFH1uZnQ",
+      "price": 3,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "easter",
+      "description": "",
+      "id": 83
+    },
+    {
+      "name": "bob",
+      "image": "bob",
+      "back_image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTqSE3V4IjJ56iTZrHDYO-o3s2Hk1J8bJK_CxuTENaeVY-5UkbKe2NzvAG_4kbQJZoTUoyA_11ew-FvQmI88HyahwUvxsGkIUsaFH1uZnQ",
+      "price": 0,
+      "nuts": true,
+      "chocolate": true,
+      "occasion": "",
+      "description": "",
+      "id": 84
+    },
+    {
+      "name": "pepper",
+      "image": "https://st2.depositphotos.com/2482107/6710/i/950/depositphotos_67106047-stock-photo-old-iron-1935-soviet-union.jpg",
+      "back_image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTqSE3V4IjJ56iTZrHDYO-o3s2Hk1J8bJK_CxuTENaeVY-5UkbKe2NzvAG_4kbQJZoTUoyA_11ew-FvQmI88HyahwUvxsGkIUsaFH1uZnQ",
+      "price": 0,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "easter",
+      "description": "",
+      "id": 85
     }
   ],
   "cart": [

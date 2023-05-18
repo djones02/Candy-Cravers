@@ -4,28 +4,23 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #38bdf8;
-}
-
 /* CART */
 
 .cart-list {
   max-width: 300px;
 }
+/* CANDY CARD CONTAINER*/
 
-/* CANDY CARD CONTAINER */
-
-/* CANDY CARD */
-.candy-container {
-  display: grid;
-  grid-template-columns: repeat(6, 350px);
+.all-candy-div {
+  background-color: #d1fae5;
 }
+/* CANDY CARD */
+
 .card {
   border-radius: 15px;
   overflow: hidden;
   /* border: 3px solid #065f46; */
-  box-shadow: 3px 3px 10px #065f46
+  box-shadow: 3px 3px 10px #065f46;
 }
 .card-title {
   padding-left: 10px;
@@ -44,14 +39,14 @@ body {
   max-width: 40px;
   border: 1.5px solid black;
   border-radius: 5px;
-  background-color: #ecfdf5
+  background-color: #ecfdf5;
 }
 
 .card-body {
-  background: linear-gradient(white, #d1fae5)
+  background: linear-gradient(white, #d1fae5);
 }
 
- #add-to-cart {
+#add-to-cart {
   width: 100%;
   height: 45px;
   background-color: #10b981;
@@ -67,43 +62,7 @@ body {
   background-color: #34d399;
 }
 
-/* FORM */
+/* FORM
 .form-container {
-  margin-top: 50px;
-}
-.form-container h2,
-.form-container p {
-  text-align: center;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 400px;
-  margin: 20px auto;
-  border: 1.5px solid black;
-  border-radius: 5px;
-  padding: 20px;
-}
-
-.form-submit {
-  color: #fafaf9;
-  cursor: pointer;
-  background-color: #78716c;
-  border: none;
-  transition: all 0.25s;
-}
-
-.form-submit:hover {
-  background-color: #a8a29e;
-}
-
-.price-container {
-  display: flex;
-  gap: 5px;
-}
-
-.price-container input {
-  width: 100%;
-}
+  background-image: url("/assets/imgs/candy/alexander-grey-1wz7cN1XTmk-unsplash.jpg");
+} */
