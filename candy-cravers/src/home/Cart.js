@@ -71,9 +71,34 @@ function Cart() {
     return (
       <div>
         {checkoutComplete ? (
+              <div id="confetti-wrapper">
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
           <div>
             <h1>Checkout Complete!</h1>
             <p>Thank you for your purchase.</p>
+          </div>
           </div>
         ) : (
           <div className='cart-page'>
