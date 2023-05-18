@@ -62,7 +62,9 @@
   background-color: #34d399;
 }
 
-/* FORM
-.form-container {
-  background-image: url("/assets/imgs/candy/alexander-grey-1wz7cN1XTmk-unsplash.jpg");
-} */
+/* FORM */
+.form-page-container {
+  background-image: url("../imgs/candy-imgs/alexander-grey-1wz7cN1XTmk-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+}
