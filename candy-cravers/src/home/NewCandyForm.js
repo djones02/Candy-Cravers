@@ -39,7 +39,6 @@ function NewCandyForm() {
       <div
         className="container "
         style={{
-          margin: "50px auto",
           paddingTop: "50px",
           maxWidth: "650px",
           background: "#ec4899",
