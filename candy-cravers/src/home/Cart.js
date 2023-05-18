@@ -86,7 +86,7 @@ function Cart() {
                     <img src={candy.image} alt={candy.name} />
                     <h2>{candy.name}</h2>
                     <h3>Amount:</h3>
-                    <input type="number" value={candy.amount} onChange={(e) => onAmountChange(e, candy)} />
+                    <input type="number" value={candy.amount} onChange={(e) => onAmountChange(e, candy)} min={"1"}/>
                     <p>Price: ${itemPrice.toFixed(2)}</p>
                     <button onClick={() => handleDelete(candy)}>Delete</button>
                   </div>
