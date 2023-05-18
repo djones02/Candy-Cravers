@@ -48,6 +48,7 @@ function NewCandyForm() {
         }}
       >
         <h2
+        className="form-content"
           style={{
             color: "white",
             fontWeight: "600",
@@ -56,7 +57,7 @@ function NewCandyForm() {
         >
           Got a Suggestion? Drop it in the From
         </h2>
-        <p style={{ color: "white" }}>
+        <p className="form-content" style={{ color: "white" }}>
           And our candy team will work on ordering it for you!
         </p>
 
@@ -176,7 +177,7 @@ function NewCandyForm() {
           </div>
 
           <button
-            className="btn btn-info btn-block"
+            className="btn btn-info btn-block form-button"
             style={{
               width: "100%",
               borderRadius: "100px",
