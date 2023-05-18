@@ -39,10 +39,35 @@ function NewCandyForm() {
   return (    
     <>
     {formComplete ? (
-      <div>
-        <h1>Form Submitted!</h1>
-        <p>Thank you for your suggestion</p>
-      </div>
+              <div id="confetti-wrapper">
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+              <div className="confetti"></div>
+          <div>
+            <h1>Checkout Complete!</h1>
+            <p>Thank you for your purchase.</p>
+          </div>
+          </div>
     ) : (
     <section className="form-page-container" style={{paddingTop:"80px"}}>
       <div
