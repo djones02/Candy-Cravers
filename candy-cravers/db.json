@@ -1176,6 +1176,83 @@
       "occasion": "valentines",
       "description": "",
       "id": 107
+    },
+    {
+      "name": "Sweethearts Valentine Conversation Hearts",
+      "image": "https://i5.walmartimages.com/asr/3f749405-8de2-44b7-80dc-2e0e5817e579.8762e31dd10179d27ce4d86f572eeeb8.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/b098152d-bbd1-4ba0-b496-0d3f36fa8737.548c419d17033fabd74283e2b4004903.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "price": 13,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "valentines",
+      "description": "",
+      "id": 108
+    },
+    {
+      "name": "Brach's Assorted Flavors Autumn Mix Candy",
+      "image": "https://i5.walmartimages.com/asr/ef4d7b16-f05f-4829-b9b7-0b90bf7c6c4e_2.b1ad9e3383d2eec5f6a7e71b341c7535.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/bfc70904-dd8b-40a7-9be6-207f042988e6_2.7333e270ed144eb86413a5c546dcf25c.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "price": 16,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "halloween",
+      "description": "",
+      "id": 109
+    },
+    {
+      "name": "Jelly Belly 10 Flavor Assortment Valentine's Day Gift Box",
+      "image": "https://m.media-amazon.com/images/I/71BE6HSj0XL._SL1500_.jpg",
+      "back_image": "https://m.media-amazon.com/images/I/819DFQ86QGL._SL1500_.jpg",
+      "price": 9,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "valentines",
+      "description": "",
+      "id": 110
+    },
+    {
+      "name": "STARBURST Assorted Heart Jellybean Valentine Candy",
+      "image": "https://i5.walmartimages.com/asr/a2c666d3-5693-4e7d-99d5-ead3febedffe.dcc86bfcbed26553c9182ba199995525.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/a7f10fd7-07ca-4bc0-9e50-ef067c5e6d89.745fb8b24c9d9021aa82cff42f828d03.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "price": 10,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "valentines",
+      "description": "",
+      "id": 111
+    },
+    {
+      "name": "Valentine Ninja Suckers With Cards",
+      "image": "https://i5.walmartimages.com/asr/90daf85a-057a-4d35-84d1-e4816a3c9dbc_1.ae0dad9e668eeb665562b25e851a8e70.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/fca83d4f-6985-420c-9090-2232c0c4c00d.ddeed13b4315ba6437e8286ec56c57f8.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "price": 11,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "valentines",
+      "description": "",
+      "id": 112
+    },
+    {
+      "name": "Brach's Valentine's Jube Jel Cherry Hearts",
+      "image": "https://i5.walmartimages.com/asr/871809c6-edcd-4a63-b6d8-45f42526c23a.8e1dc9c524de213bd27535d889b34038.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/78376d39-13b2-42de-b0a2-acc33440dd67.81876467610b49b5aaace34ba475390d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "price": 8,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "valentines",
+      "description": "",
+      "id": 113
+    },
+    {
+      "name": "Russell Stover Valentine's Day Red Foil Heart Assorted Milk & Dark Chocolate Gift Box",
+      "image": "https://i5.walmartimages.com/asr/1cc1e170-68d3-48a6-9eb8-54bd2d844cbe.fc070d8cc02728141154371b45371589.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/1acb2548-dbb9-4836-9bb1-4247e7925d11.1f6a00e88f9447dbf3ac685f022e0d0f.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "price": 13,
+      "nuts": true,
+      "chocolate": true,
+      "occasion": "valentines",
+      "description": "",
+      "id": 114
     }
   ],
   "cart": [
@@ -1189,6 +1266,18 @@
       "nuts": true,
       "chocolate": true,
       "occasion": " ",
+      "amount": 1
+    },
+    {
+      "name": "Brach's Assorted Flavors Autumn Mix Candy",
+      "image": "https://i5.walmartimages.com/asr/ef4d7b16-f05f-4829-b9b7-0b90bf7c6c4e_2.b1ad9e3383d2eec5f6a7e71b341c7535.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/bfc70904-dd8b-40a7-9be6-207f042988e6_2.7333e270ed144eb86413a5c546dcf25c.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "price": 16,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "halloween",
+      "description": "",
+      "id": 109,
       "amount": 1
     }
   ]

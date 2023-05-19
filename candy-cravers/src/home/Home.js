@@ -141,7 +141,17 @@ function Home() {
               />
               </a>
               <div className="card-body">
-                <h5 className="card-title">Candy of the Day!</h5>
+                <h5 className="card-title">Follow on Instagram for Candy of the Week!
+                <span
+                    style={{
+                      fontSize: "14px",
+                      marginLeft: "7px",
+                      color: "#60a5fa",
+                    }}
+                  >
+                    @candy_craver_connoisseur
+                  </span>
+                </h5>
               </div>
             </div>
           </div>
