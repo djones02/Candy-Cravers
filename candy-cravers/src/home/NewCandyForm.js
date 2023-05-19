@@ -39,7 +39,7 @@ function NewCandyForm() {
   return (    
     <>
     {formComplete ? (
-              <div id="confetti-wrapper">
+              <div id="confetti-wrapper" style={{backgroundColor: "#fafaf9"}}>
               <div className="confetti"></div>
               <div className="confetti"></div>
               <div className="confetti"></div>
@@ -63,9 +63,23 @@ function NewCandyForm() {
               <div className="confetti"></div>
               <div className="confetti"></div>
               <div className="confetti"></div>
-          <div>
-            <h1>Checkout Complete!</h1>
-            <p>Thank you for your purchase.</p>
+          <div
+            className="form-complete-text"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              margin: "50px auto",
+              alignItems: "center",
+            }}
+          >
+            <h1
+              style={{
+                paddingTop: "385px",
+                color: "white",
+                fontSize: "34px",
+                textShadow: "5px 5px 5px black",
+              }}
+            >Check Back Soon!</h1>
           </div>
           </div>
     ) : (

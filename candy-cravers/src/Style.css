@@ -470,6 +470,14 @@ body {
   box-shadow: "5px 5px 10px black";
 }
 
+.form-complete-text {
+  background-image: url(https://images.unsplash.com/photo-1516478379578-ea8bea43365f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM2fHxjYW5keXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60);
+  max-width: 800px;
+  height: 500px;
+  border-radius: 30px;
+  box-shadow: "5px 5px 10px black";
+}
+
 ::-webkit-scrollbar-thumb {
   background: 
   repeating-linear-gradient(
