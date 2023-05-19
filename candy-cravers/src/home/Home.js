@@ -131,6 +131,7 @@ function Home() {
               style={{ boxShadow: "3px 5px 10px black" }}
               id="home-card"
             >
+              <a href="https://www.instagram.com/candy_craver_connoisseur/">
               <img
                 src={
                   "https://images.unsplash.com/photo-1632687380457-05a1271e873b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"
@@ -138,6 +139,7 @@ function Home() {
                 className="card-img-top"
                 alt="Best Candy"
               />
+              </a>
               <div className="card-body">
                 <h5 className="card-title">Candy of the Day!</h5>
               </div>
