@@ -107,15 +107,21 @@ function Home() {
               style={{ boxShadow: "3px 5px 10px black" }}
               id="home-card"
             >
+              <Link 
+                className="nav-link"
+                id="valentines-img"
+                to="/candy/valentines"
+              >
               <img
                 src={
-                  "https://assets3.thrillist.com/v1/image/3049886/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70"
+                  "https://i.pinimg.com/600x315/d3/f3/81/d3f3818be4d1642837892f1f0740214e.jpg"
                 }
                 className="card-img-top"
                 alt="Best Candy"
               />
+              </Link>
               <div className="card-body">
-                <h5 className="card-title">Best Candy!</h5>
+                <h5 className="card-title">Valentines</h5>
               </div>
             </div>
           </div>

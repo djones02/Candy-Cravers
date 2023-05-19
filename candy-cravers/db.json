@@ -1154,20 +1154,42 @@
       "nuts": false,
       "chocolate": false,
       "occasion": "valentines"
+    },
+    {
+      "name": "SKITTLES Original Candy",
+      "image": "https://i5.walmartimages.com/asr/c5caa058-7e0b-48fd-9c4b-152d9fb58552_1.4ecb020f58c2b536709be3024d4752e8.jpeg",
+      "back_image": "https://i5.walmartimages.com/asr/a1abaa67-756f-49ec-9ddb-cc7ebf10f506_1.65c5b744367ced0f5e5dc90b4e5b063d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "price": 3,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "valentines",
+      "description": "",
+      "id": 106
+    },
+    {
+      "name": "Sweethearts Classroom Exchange Valentine's Conversational Candy",
+      "image": "https://i5.walmartimages.com/asr/d2397250-0b40-4812-abc3-2c4d9671543c_1.1dabadf36310d26711c24628f0ab2847.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/85f65f5a-d6c8-40e4-95b4-a7b9d5d6636a_1.2b4e4c1759e1464f702b69bf912cd24c.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "price": 3,
+      "nuts": false,
+      "chocolate": false,
+      "occasion": "valentines",
+      "description": "",
+      "id": 107
     }
   ],
   "cart": [
     {
-      "id": 6,
-      "name": "Rolo, Chewy Caramels in Milk Chocolate",
-      "image": "https://i5.walmartimages.com/asr/7178d695-c7f1-4c7e-9430-98e2b2e6eef4_1.f9ee997807fe5ef4d972a088b14444f0.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
-      "back_image": "https://i5.walmartimages.com/asr/2d325009-978d-410f-8537-5da437d2bdc6.2f14fff4c79aec634402b7965d968a90.jpeg",
+      "id": 1,
+      "name": "Reese's Peanut Butter Cup",
+      "image": "https://i5.walmartimages.com/asr/892fd592-8943-49fe-88da-6e6ec25ff2ab.3de47ea5094f7014c1eaf20ff731c091.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "back_image": "https://i5.walmartimages.com/asr/ecb6cea6-4e95-49fc-a118-4d19594d00c9.16836d957dc6e1234029c31ff8cba039.jpeg",
       "description": " ",
       "price": 1.24,
-      "nuts": false,
+      "nuts": true,
       "chocolate": true,
       "occasion": " ",
-      "amount": 3
+      "amount": 1
     }
   ]
 }
