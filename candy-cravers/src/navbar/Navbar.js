@@ -29,6 +29,9 @@ function Navbar() {
             <li className='nav-item'>
               <Link className='nav-link' to="/cart" ><i class="fa-solid fa-cart-shopping"></i></Link>
             </li>
+            <li className='nav-item'>
+              <a href='https://www.instagram.com/candy_craver_connoisseur/' className='nav-link' target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+            </li>
           </ul>
         </div>
       </div>
